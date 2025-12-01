@@ -1,1 +1,1 @@
-# Posti_B_JAVASCRIPT (MiniProjekt 1)
+# Posti_B_JAVASCRIPT (MiniProjekt 2)
