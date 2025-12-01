@@ -1,1 +1,1 @@
-# Posti_A_HTML_CSS (MiniProjekt 1)
+# (MiniProjekt 1 PLATFORMA E REGJISTRIMIT PER STUDENTET)
