@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista e Studentëve</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista e Studentëve</h1>
+        <p>MiniProjekt 1 – Studentët</p>
+    </header>
+
+    <section class="filter-section">
+        <h2>Filtro studentët</h2>
+        <form id="filterForm">
+            <label for="minNota">Nota minimale:</label>
+            <input type="number" id="minNota" name="minNota" min="4" max="10">
+
+            <label for="searchEmri">Kërko sipas emrit:</label>
+            <input type="text" id="searchEmri" name="searchEmri" placeholder="Shkruaj emrin...">
+
+            <button type="button" id="btnFiltro">Filtro</button>
+            <button type="reset" id="btnPastro">Pastro</button>
+        </form>
+    </section>
+
+    <section class="table-section">
+        <h2>Top studentët</h2>
+        <table id="tabelaStudentet">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Emri</th>
+                    <th>Mbiemri</th>
+                    <th>Nota</th>
+                    <th>Veprime</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Fillimisht, nxënësi mund t’i vendosë këto rreshta statikisht
+                     Më vonë Posti 3 do t’i mbushë me PHP -->
+                <tr>
+                    <td>1</td>
+                    <td>Arber</td>
+                    <td>Hoxha</td>
+                    <td>9</td>
+                    <td><button class="btn-edit">Ndrysho</button> <button class="btn-delete">Fshi</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lira</td>
+                    <td>Basha</td>
+                    <td>7</td>
+                    <td><button class="btn-edit">Ndrysho</button> <button class="btn-delete">Fshi</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>© Shkolla Profesionale “Beqir Çela” – Moduli: Lidhja e faqes web me DB</p>
+    </footer>
+
+    <!-- Më vonë Posti 2 do të lidhë këtu filter.js -->
+     <script src="../POSTI_B_JAVASCRIPT/filter.js"></script> 
+</body>
+</html>
