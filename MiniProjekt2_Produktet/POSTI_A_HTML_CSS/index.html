@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <title>MiniProjekt 2 – Produktet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>MiniProjekt 2 – Produktet</h1>
+    <p>Lista e produkteve sipas kategorisë dhe çmimit</p>
+</header>
+
+<section class="filter-section">
+    <h2>Filtro produktet</h2>
+    <form id="filterForm">
+        <label for="filterKategori">Kategoria:</label>
+        <select id="filterKategori">
+            <option value="">Të gjitha</option>
+            <option value="Ushqime">Ushqime</option>
+            <option value="Elektronikë">Elektronikë</option>
+            <option value="Higjienë">Higjienë</option>
+        </select>
+
+        <label for="filterMin">Çmimi minimal:</label>
+        <input type="number" id="filterMin" min="0" step="0.1">
+
+        <label for="filterEmer">Kërko sipas emrit:</label>
+        <input type="text" id="filterEmer">
+    </form>
+</section>
+
+<section class="table-section">
+    <h2>Lista e produkteve</h2>
+    <table id="tabelaProduktet">
+        <thead>
+            <tr>
+                <th>Emri</th>
+                <th>Kategoria</th>
+                <th>Çmimi</th>
+                <th>Sasia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bukë</td>
+                <td>Ushqime</td>
+                <td>1.00</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Mouse Logitech</td>
+                <td>Elektronikë</td>
+                <td>20.00</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <p>© Shkolla Profesionale “Beqir Çela” – MiniProjekt 2</p>
+</footer>
+</body>
+</html>
