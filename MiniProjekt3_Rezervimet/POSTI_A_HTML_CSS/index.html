@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <title>MiniProjekt 3 – Rezervimet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>MiniProjekt 3 – Rezervimet</h1>
+    <p>Menaxhimi i rezervimeve të hotelit</p>
+</header>
+
+<section class="filter-section">
+    <h2>Filtro rezervimet (demo statike)</h2>
+    <form id="filterForm">
+        <label for="filterStatus">Statusi:</label>
+        <select id="filterStatus">
+            <option value="">Të gjitha</option>
+            <option value="Aktive">Aktive</option>
+            <option value="Në pritje">Në pritje</option>
+            <option value="Anuluar">Anuluar</option>
+        </select>
+
+        <label for="filterDate">Data nga:</label>
+        <input type="date" id="filterDate">
+
+        <label for="filterKlient">Klienti:</label>
+        <input type="text" id="filterKlient" placeholder="Shkruaj emrin...">
+    </form>
+</section>
+
+<section class="table-section">
+    <h2>Rezervimet (demo statike)</h2>
+    <table id="tabelaRezervime">
+        <thead>
+        <tr>
+            <th>Klienti</th>
+            <th>Data</th>
+            <th>Tipi</th>
+            <th>Statusi</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Arben Deda</td>
+            <td>2025-01-10</td>
+            <td>Dhoma single</td>
+            <td>Aktive</td>
+        </tr>
+        <tr>
+            <td>Mira Lika</td>
+            <td>2025-01-15</td>
+            <td>Dhoma double</td>
+            <td>Në pritje</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <p>© Shkolla Profesionale “Beqir Çela” – MiniProjekt 3</p>
+</footer>
+
+</body>
+</html>
